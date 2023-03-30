@@ -6,7 +6,7 @@ We hope to accomplish a few things with this analysis and subsequent LinkedIn se
 
 While this project focuses on a TN Child Care dataset, our goal is for others to find parallels between the work in this project and the work they perform day to day. Whether that is finding similar needs in automating a data capture process that is manual today, or integrating data across two systems utilized in the organization.
 
-Since we are also community focused, we thought what better dataset then one impacting manual families in the Chattanooga area: Child Care.
+Since we are also community focused, we thought what better dataset then one impacting families in the Chattanooga area: Child Care.
 
 # **TN Child Care/Census Datasets**
 Our analysis will use the TN Child Care dataset currently housed on the chattadata.org website. This dataset includes all of TN but we will filter it down to Hamilton County. 
