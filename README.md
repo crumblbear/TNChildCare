@@ -1,5 +1,15 @@
-# TNChildCare
-An analysis of child care in Hamilton County, TN. 
+## Welcome!
+We are CrumbleBear, an orgainization designed to help Chattanooga based organizations leverage their data through visualization, automation, and integration to align, communicate, and shift effort towards serving the mission. In those efforts we work with a lot of local data. One such dataset is TN Child Care which is the basis of this repository and analysis.
+
+### What is the Purpose?
+We hope to occomplish a few things with this analysis and subsequnt LinkedIn series. The primary objective is to take others on the journey of a data analytics/visualizaion project, and peal back the curtain on the work involved with such projects. This work will cover data extraction, automation, transformation, integration/loading, and visualization. 
+
+While this project focuses on a TN Child Care dataset, our goal is for others to find parallels between the work in this project and the work they perform day to day. Whether that is finding similar needs in automating a data capture process that is manual today, or integrating data across two systems utilized in the organization.
+
+Since we are also community focused, we thought what better dataset then one impacting manual families in the Chattanooga area: Child Care.
+
+# TN Child Care/Census Datasets
+Our analysis will use the TN Child Care dataset currently housed on the chattadata.org website. 
 
 There are several files used in this analysis.
 
