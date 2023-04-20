@@ -86,6 +86,33 @@ for year in years:
         df2['YEAR'] = year
         df = pd.concat([df, df2], axis=0)
 
-print(os.getcwd())
+city_mapping = {
+    '37302': 'Apison',
+    '37315': 'Collegedale',
+    '37321': 'Dayton',
+    '37341': 'Harrison',
+    '37343': 'Hixson',
+    '37350': 'Lookout Mountain',
+    '37363': 'Ooltewah',
+    '37373': 'Sale Creek',
+    '37377': 'Signal Mountain',
+    '37379': 'Soddy Daisy',
+    '37402': 'Chattanooga',
+    '37403': 'Chattanooga',
+    '37404': 'Chattanooga',
+    '37405': 'Chattanooga',
+    '37406': 'Chattanooga',
+    '37407': 'Chattanooga',
+    '37408': 'Chattanooga',
+    '37409': 'Chattanooga',
+    '37410': 'Chattanooga',
+    '37411': 'Chattanooga',
+    '37412': 'Chattanooga',
+    '37415': 'Chattanooga',
+    '37416': 'Chattanooga',
+    '37419': 'Chattanooga',
+    '37421': 'Chattanooga',
+}
 
 df = df.reset_index(drop=True)
+df['CITY'] = df['ZIPCODE'].map(city_mapping)
